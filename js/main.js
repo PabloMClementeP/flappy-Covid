@@ -112,6 +112,14 @@ document.addEventListener("mouseup", e=>{
     spacePressed = false;
 });
 
+document.addEventListener("touchstart", e=>{
+    spacePressed = true;
+});
+
+document.addEventListener("touchend", e=>{
+    spacePressed = false;
+});
+
 // crashing image
 const bang = new Image();
 bang.src = './media/bang.png';
