@@ -11,3 +11,4 @@ Flappy-covid is a flappy bird game clon written in HTML, CSS and JavaScript
 - Custom player sprite and background
 - Button to play again
 - Best Score saved in local storage
+- Touch screen control
